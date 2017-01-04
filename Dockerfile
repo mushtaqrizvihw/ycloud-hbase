@@ -1,4 +1,4 @@
-FROM hortonworks/ycloud-apps-base:0.1
+FROM mrizvi/ycloud-apps-base-master:0.1
 
 RUN yum install -y hbase; yum clean all
 RUN yum install -y phoenix; yum clean all
